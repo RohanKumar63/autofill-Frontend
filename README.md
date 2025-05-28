@@ -33,9 +33,9 @@ autofill-assignment/
 ├── src/
 │   ├── components/
 │   │   ├── SearchInput.jsx
-│   │   └── SearchInput.css
-│   ├── data/
-│   │   └── dummyData.js
+|   |───|style
+|   |     |──SearchInput.css      
+│   ├── data.js
 │   ├── App.jsx
 │   └── main.jsx
 ├── index.html
@@ -86,15 +86,8 @@ Go to [http://localhost:5173](http://localhost:5173)
 
 ## 📸 Preview
 
-> _You can add a screenshot or screen recording of the search component working here._
+![image](https://github.com/user-attachments/assets/48471e89-5615-49d3-b681-76c93ad71e01)
 
----
-
-## 📃 License
-
-This project is licensed under the **MIT License**.
-
----
 
 ## 🙋‍♂️ Author
 
