@@ -1,12 +1,101 @@
-# React + Vite
+# 🔍 Autofill Search Assignment (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend assignment built with **React + Vite**, showcasing an intelligent autofill input with debounced search, highlighting, and LRU caching for performance optimization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔎 Dynamic search filtering from a dummy dataset
+- ⏱️ 300ms debounce to reduce unnecessary re-renders
+- ✨ Highlight matching substrings in **bold**
+- 💾 LRU (Least Recently Used) Cache storing up to 10 items
+- 🖥️ Responsive UI without white background
+- ⚛️ Built using React (Vite) and CSS Modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Technologies Used
+
+- React + Vite
+- JavaScript
+- CSS
+- Custom Debounce Logic
+- Custom LRU Cache Class
+
+---
+
+## 📁 Project Structure
+
+```
+autofill-assignment/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── SearchInput.jsx
+│   │   └── SearchInput.css
+│   ├── data/
+│   │   └── dummyData.js
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/RohanKumar63/autofill-Frontend.git
+cd autofill-Frontend
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. **Open in browser**
+
+Go to [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🧪 Example Input
+
+**User Input:** `react`
+
+**Search Results:**
+
+- **React** Query  
+- **React** Hooks  
+- **React** Router  
+
+---
+
+## 📸 Preview
+
+> _You can add a screenshot or screen recording of the search component working here._
+
+---
+
+## 📃 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙋‍♂️ Author
+
+- [Rohan Kumar](https://github.com/RohanKumar63)
