@@ -1,4 +1,4 @@
-# 🔍 Autofill Search Assignment (Frontend)
+# 🔍 Autofill Search (Frontend)
 
 This is a frontend assignment built with **React + Vite**, showcasing an intelligent autofill input with debounced search, highlighting, and LRU caching for performance optimization.
 
